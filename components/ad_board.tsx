@@ -6,7 +6,12 @@ export default function AdBoard() {
   return (
     <div className="">
       <AdBoardContents />
-      <Image alt="daging sapi " src={require("./images/Steak.webp")} fill />
+      <Image
+        alt="daging sapi "
+        src={require("./images/Steak.webp")}
+        fill
+        style={{ zIndex: 0 }}
+      />
     </div>
   );
 }
