@@ -7,6 +7,7 @@ export default function AdBoard() {
     <div className="">
       <AdBoardContents />
       <Image
+        className="brightness-50"
         alt="daging sapi "
         src={require("./images/Steak.webp")}
         fill

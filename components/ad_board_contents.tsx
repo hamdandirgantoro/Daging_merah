@@ -7,7 +7,7 @@ export default function AdBoardContents() {
       style={{ zIndex: 1 }}
     >
       <div className="">
-        <h1 className="text-slate-500 font-bold">
+        <h1 className="text-white text-5xl font-bold">
           Daging Sapi Segar untuk Keluarga Indonesia
         </h1>
       </div>
