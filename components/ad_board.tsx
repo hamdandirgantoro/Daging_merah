@@ -7,10 +7,9 @@ export default function AdBoard() {
     <div className="">
       <AdBoardContents />
       <Image
-        className="brightness-50"
+        className="brightness-50 h-screen w-screen"
         alt="daging sapi "
         src={require("./images/Steak.webp")}
-        fill
         style={{ zIndex: 0 }}
       />
     </div>
