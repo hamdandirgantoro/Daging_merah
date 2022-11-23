@@ -5,6 +5,7 @@ import Navbar from "../components/navbar";
 import FooterWeb from "../components/footer";
 import ImageSlider from "../components/ad_board";
 import AdBoard from "../components/ad_board";
+import Tentang from "../components/tentang";
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
       <div>
         <Navbar />
         <AdBoard />
+        <Tentang />
         <FooterWeb />
       </div>
     </>
