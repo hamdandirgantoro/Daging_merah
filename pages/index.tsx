@@ -6,6 +6,7 @@ import FooterWeb from "../components/footer";
 import AdBoard from "../components/ad_board";
 import Tentang from "../components/tentang";
 import Produk from "../components/produk";
+import Contact from "../components/contact";
 
 export default function Home() {
   return (
@@ -38,7 +39,7 @@ export default function Home() {
         <AdBoard />
         <Tentang />
         <Produk />
-        <FooterWeb />
+        <Contact />
       </div>
     </>
   );
