@@ -36,7 +36,7 @@ export default function Home() {
       <div>
         <Navbar />
         <AdBoard />
-        <Tentang />
+        {/* <Tentang /> */}
         <FooterWeb />
       </div>
     </>

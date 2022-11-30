@@ -7,9 +7,15 @@ export default function AdBoard() {
     <div className="shadow-[#000000] drop-shadow-2xl">
       <AdBoardContents />
       <Image
-        className="brightness-50 h-screen w-screen "
+        className="hidden md:block brightness-50 h-screen w-screen "
         alt="daging sapi "
         src={require("./images/Steak.webp")}
+        style={{ zIndex: 0 }}
+      />
+      <Image
+        className=" md:hidden brightness-50 h-screen w-screen "
+        alt="daging sapi "
+        src={require("./images/steak_mobile.webp")}
         style={{ zIndex: 0 }}
       />
     </div>
