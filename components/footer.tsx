@@ -2,8 +2,8 @@ import React from "react";
 
 export default function FooterWeb() {
   return (
-    <footer className=" h-32 w-full">
-      <div className="bg-gradient-to-r from-red-800 to-red-600 absolute inset-x-0 bottom-0 h-20">
+    <footer className=" h-32 w-full" style={{ zIndex: 1 }}>
+      <div className="bg-gradient-to-r from-red-800 to-red-600 absolute inset-x-0 h-20">
         <ul className="shadow-[#000000] drop-shadow-md rounded-lg bg-white  flex items-center m-3 p-1 h-fit w-fit">
           <li className="mx-4">
             <h1>Temukan kami di</h1>

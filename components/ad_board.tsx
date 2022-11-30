@@ -4,7 +4,7 @@ import AdBoardContents from "./ad_board_contents";
 
 export default function AdBoard() {
   return (
-    <div className="shadow-[#000000] drop-shadow-2xl">
+    <div className="shadow-[#000000] drop-shadow-2xl" id="home">
       <AdBoardContents />
       <Image
         className="hidden md:block brightness-50 h-screen w-screen "

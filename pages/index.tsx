@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import Navbar from "../components/navbar";
 import FooterWeb from "../components/footer";
-import ImageSlider from "../components/ad_board";
 import AdBoard from "../components/ad_board";
 import Tentang from "../components/tentang";
+import Produk from "../components/produk";
 
 export default function Home() {
   return (
@@ -36,7 +36,8 @@ export default function Home() {
       <div>
         <Navbar />
         <AdBoard />
-        {/* <Tentang /> */}
+        <Tentang />
+        <Produk />
         <FooterWeb />
       </div>
     </>
