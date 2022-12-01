@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav className="shadow-[#000000] drop-shadow-xl bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 absolute md:fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
-        <Link href="#" className="flex items-center">
+        <div className="flex items-center">
           <Image
             priority
             src={Brand}
@@ -15,14 +15,16 @@ export default function Navbar() {
             height={85}
             width={85}
           />
-        </Link>
+        </div>
         <div className="flex md:order-2">
-          <button
-            type="button"
-            className="text-white bg-red-600 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-          >
-            Language
-          </button>
+          <Link href="/pekerjaan">
+            <button
+              type="button"
+              className="text-white bg-red-600 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+              MELAMAR KERJA
+            </button>
+          </Link>
           <button
             data-collapse-toggle="navbar-sticky"
             type="button"

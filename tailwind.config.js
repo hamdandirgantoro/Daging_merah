@@ -8,7 +8,8 @@ module.exports = {
     './components/tentang.tsx',
     './components/produk.tsx',
     './components/contact.tsx',
-    './pages/admin.tsx'
+    './pages/admin.tsx',
+    './pages/pekerjaan.tsx'
   ],
   theme: {
     extend: {},
