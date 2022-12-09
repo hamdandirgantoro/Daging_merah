@@ -8,6 +8,9 @@ module.exports = {
     './components/tentang.tsx',
     './components/produk.tsx',
     './components/contact.tsx',
+    './components/konten_tentang.tsx',
+    './components/konten_produk.tsx',
+    './components/konten_contact.tsx',
     './pages/admin.tsx',
     './pages/pekerjaan.tsx'
   ],

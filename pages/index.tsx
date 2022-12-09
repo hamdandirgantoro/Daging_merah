@@ -40,6 +40,7 @@ export default function Home() {
         <Tentang />
         <Produk />
         <Contact />
+        <FooterWeb />
       </div>
     </>
   );

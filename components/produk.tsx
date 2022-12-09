@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import KontenTentang from "./konten_tentang";
 export default function Produk() {
   return (
     <div className="static" id="produk">
