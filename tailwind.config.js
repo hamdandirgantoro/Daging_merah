@@ -12,7 +12,8 @@ module.exports = {
     './components/konten_produk.tsx',
     './components/konten_contact.tsx',
     './pages/admin.tsx',
-    './pages/pekerjaan.tsx'
+    './pages/pekerjaan.tsx',
+    './components/slideshow.tsx'
   ],
   theme: {
     extend: {},

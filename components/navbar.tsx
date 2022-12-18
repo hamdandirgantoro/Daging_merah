@@ -4,7 +4,7 @@ import Brand from "../public/brand.webp";
 import Link from "next/link";
 export default function Navbar() {
   return (
-    <nav className="shadow-[#000000] drop-shadow-xl bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 absolute md:fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+    <nav className="shadow-[#000000] drop-shadow-xl bg-white px-2 sm:px-4 py-2.5 dark:bg-red-900 absolute md:fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-red-800">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <div className="flex items-center">
           <Image
