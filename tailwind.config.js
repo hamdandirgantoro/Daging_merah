@@ -13,7 +13,7 @@ module.exports = {
     './components/konten_contact.tsx',
     './pages/admin.tsx',
     './pages/pekerjaan.tsx',
-    './components/slideshow.tsx'
+    './components/imageslider.tsx'
   ],
   theme: {
     extend: {},

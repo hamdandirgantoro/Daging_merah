@@ -1,11 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import KontenTentang from "./konten_tentang";
+import KontenProduk from "./konten_produk";
 export default function Produk() {
   return (
     <div className="static" id="produk">
+      <KontenProduk />
       <Image
-        className=" w-screen h-screen"
+        className=" brightness-50 w-screen h-screen"
         src={require("./images/background_produk.webp")}
         alt="background tentang"
         style={{ zIndex: 0 }}

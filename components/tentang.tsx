@@ -4,9 +4,9 @@ import KontenTentang from "./konten_tentang";
 export default function Tentang() {
   return (
     <div className="" id="tentang">
-      <KontenTentang/>
+      <KontenTentang />
       <Image
-        className=" w-screen h-screen"
+        className="brightness-50 w-screen h-screen"
         src={require("./images/background_tentang.webp")}
         alt="background tentang"
         style={{ zIndex: 0 }}
