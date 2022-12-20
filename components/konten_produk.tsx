@@ -11,6 +11,11 @@ export default function KontenProduk() {
     >
       <div className=" rounded bg-red-600 p-5 border-solid h-fit w-fit flex justify-center shadow-[#000000] shadow-2xl">
         <div className="grid grid-cols-1">
+          <div className="flex justify-center bg-red-700 mb-2 rounded">
+            <h6 className="flex justify-center p-1 font-extrabold text-white">
+              Produk Kami
+            </h6>
+          </div>
           <div className="grid grid-cols-3 gap-5">
             <div className=" h-fit w-fit grid grid-cols-1 rounded border-solid border-2 border-red-100 bg-white shadow-[#000000] drop-shadow-2xl">
               <Image
@@ -55,7 +60,7 @@ export default function KontenProduk() {
           <div className="grid grid-cols-1">
             <div className="flex justify-center mt-3">
               <div className="font-bold text-white w-fit h-fit bg-red-700 p-2 rounded">
-                link pembelian
+                Beli Produk Kami Di Olshop Favoritmu
               </div>
             </div>
             <div className="flex justify-center items-center mt-3">
@@ -66,7 +71,7 @@ export default function KontenProduk() {
                       height={75}
                       width={75}
                       alt="12"
-                      className="rounded shadow-[#000000] drop-shadow-2xl"
+                      className="rounded shadow-[#000000] drop-shadow-2xl hover:scale-110 transition-transform"
                       src={require("./images/tokopedia.webp")}
                     />
                   </Link>
@@ -77,7 +82,7 @@ export default function KontenProduk() {
                       height={75}
                       width={75}
                       alt="12"
-                      className="rounded shadow-[#000000] drop-shadow-2xl"
+                      className="rounded shadow-[#000000] drop-shadow-2xl hover:scale-110 transition-transform"
                       src={require("./images/Shopee.webp")}
                     />
                   </Link>

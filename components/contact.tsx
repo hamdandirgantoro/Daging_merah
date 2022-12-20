@@ -5,7 +5,7 @@ import FooterWeb from "./footer";
 export default function Contact() {
   return (
     <div
-      className="bg-red-100 h-screen w-screen absolute"
+      className="bg-red-100 h-screen w-screen "
       id="contact"
       style={{ zIndex: 0 }}
     ></div>

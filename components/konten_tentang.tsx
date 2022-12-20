@@ -4,10 +4,13 @@ import ImageSlider from "./imageslider";
 export default function KontenTentang() {
   return (
     <div
-      className="w-screen h-screen flex justify-center items-center absolute"
+      className="w-fit h-fit flex justify-center items-center shadow-[#000000] drop-shadow-2xl"
       style={{ zIndex: 1 }}
     >
-      <div className="rounded p-3 h-fit w-fit bg-white flex justify-center items-center">
+      <div
+        className=" p-3 h-fit w-fit bg-red-700  flex justify-center items-center text-white"
+        id="tentang"
+      >
         PT.Daging Merah adalah perusahaan yang berdiri sejak tahun 1990 yang
         berfokus pada industri pangan khususnya daging sapi, <br />
         kami berkomitmen untuk menghadirkan solusi bahan pangan yang berkualitas

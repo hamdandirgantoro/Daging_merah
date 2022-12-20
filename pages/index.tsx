@@ -7,6 +7,7 @@ import AdBoard from "../components/ad_board";
 import Tentang from "../components/tentang";
 import Produk from "../components/produk";
 import Contact from "../components/contact";
+import KontenTentang from "../components/konten_tentang";
 
 export default function Home() {
   return (
@@ -37,7 +38,8 @@ export default function Home() {
       <div>
         <Navbar />
         <AdBoard />
-        <Tentang />
+        <KontenTentang />
+        {/* <Tentang /> */}
         <Produk />
         <Contact />
         <FooterWeb />
