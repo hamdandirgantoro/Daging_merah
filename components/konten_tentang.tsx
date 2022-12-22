@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import ImageSlider from "./imageslider";
 export default function KontenTentang() {
   return (
     <div

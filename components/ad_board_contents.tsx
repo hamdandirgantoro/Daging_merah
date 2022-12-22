@@ -8,8 +8,8 @@ export default function AdBoardContents() {
     >
       <div className="">
         <h1 className="text-white text-3xl md:text-5xl font-bold text-center">
-          Daging Sapi Segar untuk Keluarga <br />
-          dan juga bisnis anda
+          Daging Sapi Segar Untuk Keluarga <br />
+          Dan Juga Bisnis Anda
         </h1>
       </div>
     </div>
