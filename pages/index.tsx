@@ -39,7 +39,7 @@ export default function Home() {
         <Navbar />
         <AdBoard />
         <KontenTentang />
-        {/* <Tentang /> */}
+        <Tentang />
         <Produk />
         <Contact />
         <FooterWeb />
