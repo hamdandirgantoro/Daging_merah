@@ -35,7 +35,7 @@ export default function Home() {
         />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
-      <div>
+      <body className="h-screen w-screen">
         <Navbar />
         <AdBoard />
         <KontenTentang />
@@ -43,7 +43,7 @@ export default function Home() {
         <Produk />
         <Contact />
         <FooterWeb />
-      </div>
+      </body>
     </>
   );
 }

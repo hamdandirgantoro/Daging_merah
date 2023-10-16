@@ -4,7 +4,7 @@ import KontenContacts from "./konten_contacts";
 export default function Contact() {
   return (
     <div
-      className="bg-red-600 h-screen w-screen "
+      className="bg-red-600 h-full w-full"
       id="contact"
       style={{ zIndex: 0 }}
     >

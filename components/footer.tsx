@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function FooterWeb() {
   return (
     <footer
-      className="bg-gradient-to-r from-red-700 via-red-600 to-red-700 h-fit w-full absolute grid grid-cols-1"
+      className="bg-gradient-to-r from-red-700 via-red-600 to-red-700 h-fit w-screen absolute grid grid-cols-1"
       id="contact"
       style={{ zIndex: 0 }}
     >
@@ -18,6 +18,7 @@ export default function FooterWeb() {
             <div className="flex justify-center items-center space-x-3 bg-white rounded-md py-1 pl-1 pr-2">
               <Link href={"#"}>
                 <Image
+                  draggable="false"
                   alt="facebook"
                   src={require("/components/images/Facebook.svg")}
                   className="h-12 w-12 hover:scale-125 transition-transform  "
@@ -25,6 +26,7 @@ export default function FooterWeb() {
               </Link>
               <Link href={"#"}>
                 <Image
+                  draggable="false"
                   alt="instagram"
                   src={require("/components/images/Instagram.svg")}
                   className="h-10 w-10 hover:scale-125 transition-transform  "
@@ -32,6 +34,7 @@ export default function FooterWeb() {
               </Link>
               <Link href={"#"}>
                 <Image
+                  draggable="false"
                   alt="twitter"
                   src={require("/components/images/Twitter.svg")}
                   className="h-10 w-10 hover:scale-125 transition-transform"

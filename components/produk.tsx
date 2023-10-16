@@ -7,7 +7,7 @@ export default function Produk() {
     <div className="static" id="produk">
       <KontenProduk />
       <Image
-        className=" brightness-50 w-screen h-screen"
+        className=" brightness-50 w-full h-full"
         src={require("./images/background_produk.webp")}
         alt="background tentang"
         style={{ zIndex: 0 }}

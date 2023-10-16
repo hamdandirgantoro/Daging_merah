@@ -10,10 +10,11 @@ module.exports = {
     './components/contact.tsx',
     './components/konten_tentang.tsx',
     './components/konten_produk.tsx',
-    './components/konten_contact.tsx',
+    './components/konten_contacts.tsx',
+    './pages/index.tsx',
     './pages/admin.tsx',
-    './pages/pekerjaan.tsx',
-    './components/imageslider.tsx'
+    './pages/lowongan.tsx',
+    './components/imageslider.tsx',
   ],
   theme: {
     extend: {},
